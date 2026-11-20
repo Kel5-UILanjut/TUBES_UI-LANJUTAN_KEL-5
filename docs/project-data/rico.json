@@ -1,0 +1,50 @@
+{
+  "member": {
+    "id": "1",
+    "name": "Rico",
+    "role": "Scrum Master + Frontend Lead",
+    "skema": "Programming",
+    "skills": [
+      "Vue 3",
+      "Vite",
+      "Pinia",
+      "Tailwind CSS",
+      "JavaScript",
+      "Git"
+    ],
+    "avatar": "/images/members/rico.webp",
+    "bio": "Frontend developer dan Scrum Master yang berfokus pada arsitektur web modern, performa responsif, dan alur kolaborasi tim yang efisien.",
+    "github": "https://github.com/rico-programming",
+    "linkedin": "https://linkedin.com/in/rico-developer",
+    "email": "rico@example.com"
+  },
+  "project": {
+    "id": "1",
+    "memberId": "1",
+    "title": "Smart Campus Portal",
+    "summary": "Platform sentral kegiatan mahasiswa, jadwal perkuliahan, dan informasi organisasi kampus berbasis web responsif.",
+    "category": "Web Application",
+    "technologies": [
+      "Vue 3",
+      "Vite",
+      "Pinia",
+      "Tailwind CSS",
+      "Axios"
+    ],
+    "background": "Kebutuhan portal kampus terpadu yang mempermudah mahasiswa memantau agenda akademik dan kegiatan organisasi secara real-time tanpa harus membuka banyak kanal terpisah.",
+    "goal": "Menyediakan antarmuka interaktif yang cepat, intuitif, dan adaptif di berbagai perangkat untuk seluruh sivitas akademika.",
+    "features": [
+      "Dashboard ringkasan jadwal dan pengumuman akademik",
+      "Katalog organisasi mahasiswa dan pendaftaran kegiatan",
+      "Filter dan pencarian interaktif agenda kampus",
+      "Tampilan antarmuka adaptif untuk mobile dan desktop"
+    ],
+    "screenshots": [
+      "/images/projects/rico-project-1.webp",
+      "/images/projects/rico-project-2.webp"
+    ],
+    "contribution": "Mengembangkan arsitektur frontend dengan Vue 3 & Pinia, merancang sistem routing modular, dan mengimplementasikan fitur showcase dengan filter interaktif.",
+    "repoUrl": "https://github.com/rico-programming/smart-campus-portal",
+    "demoUrl": "https://smart-campus-portal.vercel.app"
+  }
+}
