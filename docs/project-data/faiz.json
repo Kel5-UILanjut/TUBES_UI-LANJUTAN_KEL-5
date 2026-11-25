@@ -1,0 +1,45 @@
+{
+  "member": {
+    "name": "Faiz Ardhanu",
+    "role": "Home + QA Automation",
+    "skema": "IT Governance",
+    "skills": [
+      "Vue 3",
+      "Tailwind CSS",
+      "Selenium WebDriver",
+      "QA Testing",
+      "IT Governance"
+    ],
+    "avatar": "/images/members/faiz.webp",
+    "bio": "Anggota tim skema IT Governance yang berfokus pada pengembangan halaman Home, komponen navigasi, serta penjaminan mutu melalui pengujian fungsional otomatis.",
+    "github": "https://github.com/faizardhanu",
+    "linkedin": "https://linkedin.com/in/faizardhanu",
+    "email": "faizardhanu123@gmail.com"
+  },
+  "project": {
+    "title": "IT Audit & QA Compliance Tracker",
+    "summary": "Aplikasi web untuk memantau kepatuhan tata kelola TI, checklist audit sistem, dan pelacakan hasil uji fungsional secara terstruktur.",
+    "category": "Web",
+    "technologies": [
+      "Vue 3",
+      "Tailwind CSS",
+      "Node.js",
+      "Selenium WebDriver"
+    ],
+    "background": "Proses evaluasi tata kelola TI dan dokumentasi hasil quality assurance sering tersebar di banyak dokumen terpisah sehingga progres perbaikan sulit dipantau.",
+    "goal": "Menyediakan dashboard terpusat yang memudahkan tim QA dan auditor internal mencatat test case, melacak temuan kepatuhan, dan memantau kesiapan rilis.",
+    "features": [
+      "Dashboard ringkasan kepatuhan tata kelola TI dan status pengujian",
+      "Manajemen checklist test case dan pencatatan temuan bug",
+      "Filter status audit berdasarkan kategori dan tingkat prioritas",
+      "Ringkasan kesiapan rilis berbasis kriteria penerimaan"
+    ],
+    "screenshots": [
+      "/images/projects/faiz-project-1.webp",
+      "/images/projects/faiz-project-2.webp"
+    ],
+    "contribution": "Merancang struktur checklist audit & QA, mengembangkan antarmuka dashboard monitoring, serta menyusun skrip pengujian fungsional otomatis.",
+    "repoUrl": "https://github.com/faizardhanu/it-audit-qa-tracker",
+    "demoUrl": ""
+  }
+}
