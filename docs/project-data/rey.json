@@ -1,0 +1,47 @@
+{
+  "member": {
+    "name": "Reynaldy",
+    "role": "API + Deployment",
+    "skema": "Programming",
+    "skills": [
+      "Vue 3",
+      "Axios",
+      "REST API",
+      "Node.js",
+      "Vercel",
+      "Vitest"
+    ],
+    "avatar": "/images/members/rey.webp",
+    "bio": "Developer pada skema Programming yang bertanggung jawab atas integrasi MockAPI, service layer Axios, penanganan state loading/error/empty, halaman Project Detail, serta deployment di Vercel.",
+    "github": "https://github.com/reynaldy",
+    "linkedin": "https://linkedin.com/in/reynaldy",
+    "email": "reynaldy@example.com"
+  },
+  "project": {
+    "title": "API Gateway & Deployment Monitor",
+    "summary": "Dashboard pemantauan kesehatan endpoint REST API, latensi respons, dan status deployment aplikasi web secara terstruktur.",
+    "category": "Web",
+    "technologies": [
+      "Vue 3",
+      "Axios",
+      "Tailwind CSS",
+      "Node.js",
+      "Vercel"
+    ],
+    "background": "Dalam pengembangan aplikasi frontend yang terhubung ke layanan eksternal, perubahan status endpoint dan kegagalan deployment sering terlambat terdeteksi tanpa pemantauan terpusat.",
+    "goal": "Menyediakan antarmuka ringan untuk memeriksa ketersediaan endpoint API, melihat ringkasan status HTTP, dan memantau riwayat rilis deployment.",
+    "features": [
+      "Pemantauan status HTTP endpoint (200, 4xx, 5xx) dan waktu respons",
+      "Penanganan state loading, error terstruktur, dan empty state",
+      "Riwayat log deployment dan konfigurasi environment variable",
+      "Filter endpoint berdasarkan kategori layanan dan status"
+    ],
+    "screenshots": [
+      "/images/projects/rey-project-1.webp",
+      "/images/projects/rey-project-2.webp"
+    ],
+    "contribution": "Merancang arsitektur service layer Axios dengan normalisasi error, mengonfigurasi pipeline deployment Vercel beserta SPA rewrite rules, dan membangun antarmuka detail monitoring.",
+    "repoUrl": "https://github.com/reynaldy/api-deployment-monitor",
+    "demoUrl": ""
+  }
+}
