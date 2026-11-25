@@ -1,0 +1,38 @@
+{
+  "member": {
+    "name": "Shafa",
+    "role": "Design System",
+    "skema": "UI/UX",
+    "skills": ["Figma", "Tailwind CSS", "Vue 3", "UI/UX Design", "Wireframing"],
+    "avatar": "/images/members/shafa.webp",
+    "bio": "Bertanggung jawab atas design system tim: design token, komponen reusable (Button, Modal, Card, Gallery), wireframe 5 halaman, serta evaluasi heuristik dan responsivitas aplikasi.",
+    "github": "https://github.com/shafa",
+    "linkedin": "https://linkedin.com/in/shafa",
+    "email": "shafa@email.com"
+  },
+  "project": {
+    "title": "Design System & UI Component Library",
+    "summary": "Membangun sistem desain terpadu yang menjadi fondasi visual website portofolio tim, mencakup design token, komponen reusable, wireframe, dan panduan responsivitas.",
+    "category": "Web",
+    "technologies": ["Figma", "Tailwind CSS", "Vue 3", "Google Fonts"],
+    "background": "Tim membutuhkan konsistensi visual di seluruh halaman aplikasi. Tanpa sistem desain yang terdokumentasi, setiap anggota bisa menggunakan nilai warna, font, dan spacing yang berbeda-beda, menghasilkan tampilan yang tidak seragam dan sulit dirawat.",
+    "goal": "Menciptakan design system tunggal yang menjadi sumber kebenaran (single source of truth) untuk warna, tipografi, spacing, dan radius sudut—sehingga semua komponen tampil konsisten dan mudah dikembangkan oleh seluruh anggota tim.",
+    "features": [
+      "Design token lengkap: palet primary (indigo), secondary (amber), neutral (slate), dan status",
+      "Tipografi terstruktur: Plus Jakarta Sans untuk heading, Inter untuk body, dimuat via Google Fonts",
+      "Komponen BaseButton dengan varian primary/secondary/ghost dan state disabled/loading",
+      "Komponen BaseModal dengan dukungan v-model, tutup Esc, dan animasi",
+      "Komponen ProjectCard dengan badge kategori, thumbnail fallback, dan link ke detail",
+      "Komponen ImageGallery dengan grid thumbnail dan modal preview (prev/next, Esc)",
+      "Wireframe 5 halaman × 2 ukuran layar (mobile 360px & desktop 1280px)",
+      "Panduan responsivitas dan checklist heuristic evaluation Nielsen"
+    ],
+    "screenshots": [
+      "/images/projects/design-system-1.webp",
+      "/images/projects/design-system-2.webp"
+    ],
+    "contribution": "Merancang dan mengimplementasikan seluruh design system tim: mendefinisikan design token di tailwind.config.js, mengatur tipografi dan layout global di main.css, membuat komponen reusable BaseButton, BaseModal, ProjectCard, dan ImageGallery, serta mendokumentasikan wireframe dan panduan desain di docs/.",
+    "repoUrl": "https://github.com/team/tubes-ui-lanjutan",
+    "demoUrl": ""
+  }
+}

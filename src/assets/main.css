@@ -1,14 +1,162 @@
+/* ─────────────────────────────────────────────────────────────────────────
+   Google Fonts – Plus Jakarta Sans (heading) & Inter (body)
+   Muat weight yang dipakai agar tidak bloat
+   ───────────────────────────────────────────────────────────────────────── */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap');
+
+/* ─────────────────────────────────────────────────────────────────────────
+   Tailwind directives
+   ───────────────────────────────────────────────────────────────────────── */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-  color-scheme: light;
+/* ─────────────────────────────────────────────────────────────────────────
+   Base / Reset
+   ───────────────────────────────────────────────────────────────────────── */
+@layer base {
+  :root {
+    color-scheme: light;
+  }
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    margin: 0;
+    min-width: 320px;
+    min-height: 100vh;
+    background-color: theme('colors.neutral.50');   /* #F8FAFC */
+    color: theme('colors.neutral.600');              /* #475569 teks isi */
+    font-family: theme('fontFamily.body');           /* Inter */
+    font-size: 1rem;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Heading menggunakan Plus Jakarta Sans */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: theme('fontFamily.heading');
+    color: theme('colors.neutral.900');  /* #0F172A */
+    line-height: 1.25;
+    margin: 0;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  a {
+    color: theme('colors.primary.600');
+    text-decoration: none;
+    transition: color 0.15s ease;
+  }
+
+  a:hover {
+    color: theme('colors.primary.700');
+  }
+
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Focus ring aksesibel */
+  :focus-visible {
+    outline: 2px solid theme('colors.primary.500');
+    outline-offset: 2px;
+  }
 }
 
-body {
-  margin: 0;
-  min-width: 320px;
-  min-height: 100vh;
+/* ─────────────────────────────────────────────────────────────────────────
+   Component layer – helper classes pakai design token
+   ───────────────────────────────────────────────────────────────────────── */
+@layer components {
+
+  /* Lebar konten maksimum 1200px, centered */
+  .content-wrapper {
+    width: 100%;
+    max-width: theme('maxWidth.content');   /* 1200px */
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  /* Section padding: 5rem desktop / 3rem mobile */
+  .section-padding {
+    padding-top: theme('spacing.section-mobile');      /* 3rem */
+    padding-bottom: theme('spacing.section-mobile');
+  }
+
+  @screen md {
+    .section-padding {
+      padding-top: theme('spacing.section-desktop');   /* 5rem */
+      padding-bottom: theme('spacing.section-desktop');
+    }
+  }
+
+  /* ── Badge kategori (secondary amber) ─────────────────────────────────── */
+  /* secondary-400/500 dan ke atas → teks gelap (neutral-900) */
+  .badge-category {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.125rem 0.625rem;
+    border-radius: theme('borderRadius.badge');  /* 6px */
+    font-size: 0.75rem;
+    font-weight: 600;
+    background-color: theme('colors.secondary.100');
+    color: theme('colors.neutral.900');
+    letter-spacing: 0.03em;
+  }
+
+  /* ── Status badges ─────────────────────────────────────────────────────── */
+  .badge-success {
+    background-color: #DCFCE7;
+    color: theme('colors.status.success');
+  }
+  .badge-warning {
+    background-color: #FEF3C7;
+    color: theme('colors.status.warning');
+  }
+  .badge-error {
+    background-color: #FEE2E2;
+    color: theme('colors.status.error');
+  }
+  .badge-info {
+    background-color: #DBEAFE;
+    color: theme('colors.status.info');
+  }
+}
+
+/* ─────────────────────────────────────────────────────────────────────────
+   Utility layer – shorthand helpers
+   ───────────────────────────────────────────────────────────────────────── */
+@layer utilities {
+  /* Teks heading cepat */
+  .text-heading {
+    font-family: theme('fontFamily.heading');
+    color: theme('colors.neutral.900');
+  }
+
+  /* Teks kecil / caption */
+  .text-caption {
+    font-size: 0.75rem;
+    color: theme('colors.neutral.500');
+  }
+
+  /* Divider tipis */
+  .divider {
+    border: none;
+    border-top: 1px solid theme('colors.neutral.200');
+  }
 }
