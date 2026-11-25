@@ -1,45 +1,46 @@
 {
   "member": {
     "name": "Faiz Ardhanu",
-    "role": "Home + QA Automation",
+    "role": "IT Governance Officer",
     "skema": "IT Governance",
     "skills": [
-      "Vue 3",
-      "Tailwind CSS",
-      "Selenium WebDriver",
-      "QA Testing",
-      "IT Governance"
+      "COBIT 2019",
+      "IT Governance",
+      "Business Process Analysis",
+      "SOP Development",
+      "Flowchart",
+      "Data Verification & Validation"
     ],
     "avatar": "/images/members/faiz.webp",
-    "bio": "Anggota tim skema IT Governance yang berfokus pada pengembangan halaman Home, komponen navigasi, serta penjaminan mutu melalui pengujian fungsional otomatis.",
+    "bio": "IT Governance Officer yang memiliki ketertarikan dalam penyusunan kebijakan dan prosedur operasional, analisis proses bisnis, serta pengelolaan risiko teknologi informasi untuk mendukung efektivitas dan tata kelola TI dalam organisasi.",
     "github": "https://github.com/faizardhanu",
-    "linkedin": "https://linkedin.com/in/faizardhanu",
+    "linkedin": "https://www.linkedin.com/in/faizardhanu/",
     "email": "faizardhanu123@gmail.com"
   },
   "project": {
-    "title": "IT Audit & QA Compliance Tracker",
-    "summary": "Aplikasi web untuk memantau kepatuhan tata kelola TI, checklist audit sistem, dan pelacakan hasil uji fungsional secara terstruktur.",
-    "category": "Web",
+    "title": "Penyusunan SOP untuk Implementasi IT Governance pada PT Electronic Home Solutions",
+    "summary": "Penyusunan empat dokumen Standar Operasional Prosedur (SOP), yaitu SOP Layanan Helpdesk, SOP Perlindungan Data Pengguna, SOP Change Management, dan SOP Mitigasi Risiko dan Disaster Recovery Center (DRC) untuk mendukung standarisasi proses operasional dan penerapan IT Governance pada PT Electronic Home Solutions.",
+    "category": "IT Governance",
     "technologies": [
-      "Vue 3",
-      "Tailwind CSS",
-      "Node.js",
-      "Selenium WebDriver"
+      "COBIT 2019",
+      "Business Process Analysis",
+      "SOP Documentation",
+      "Flowchart"
     ],
-    "background": "Proses evaluasi tata kelola TI dan dokumentasi hasil quality assurance sering tersebar di banyak dokumen terpisah sehingga progres perbaikan sulit dipantau.",
-    "goal": "Menyediakan dashboard terpusat yang memudahkan tim QA dan auditor internal mencatat test case, melacak temuan kepatuhan, dan memantau kesiapan rilis.",
+    "background": "Beberapa proses operasional pada Divisi IT PT Electronic Home Solutions telah berjalan, tetapi belum seluruhnya memiliki pedoman kerja yang terdokumentasi secara formal. Kondisi tersebut berpotensi menyebabkan ketidakkonsistenan dalam pelaksanaan proses operasional dan pembagian tanggung jawab.",
+    "goal": "Menyusun pedoman operasional yang terstruktur dan terdokumentasi melalui SOP serta flowchart untuk memperjelas tahapan proses, pembagian tanggung jawab, dan meningkatkan konsistensi pelaksanaan pekerjaan sebagai bentuk implementasi IT Governance.",
     "features": [
-      "Dashboard ringkasan kepatuhan tata kelola TI dan status pengujian",
-      "Manajemen checklist test case dan pencatatan temuan bug",
-      "Filter status audit berdasarkan kategori dan tingkat prioritas",
-      "Ringkasan kesiapan rilis berbasis kriteria penerimaan"
+      "SOP Layanan Helpdesk: Mengatur proses penerimaan, penanganan, eskalasi, hingga penyelesaian laporan pengguna.",
+      "SOP Perlindungan Data Pengguna: Mengatur proses pengelolaan dan perlindungan data pribadi pengguna.",
+      "SOP Change Management: Mengatur prosedur pengelolaan perubahan sistem dan teknologi informasi.",
+      "SOP Mitigasi Risiko dan Disaster Recovery Center (DRC): Mengatur prosedur mitigasi risiko serta pemulihan layanan ketika terjadi gangguan.",
+      "Flowchart Proses Bisnis: Memvisualisasikan tahapan proses dan pihak yang bertanggung jawab pada setiap SOP."
     ],
     "screenshots": [
-      "/images/projects/faiz-project-1.webp",
-      "/images/projects/faiz-project-2.webp"
+      "/images/projects/faiz-project-1.webp"
     ],
-    "contribution": "Merancang struktur checklist audit & QA, mengembangkan antarmuka dashboard monitoring, serta menyusun skrip pengujian fungsional otomatis.",
-    "repoUrl": "https://github.com/faizardhanu/it-audit-qa-tracker",
+    "contribution": "Menyusun empat dokumen Standar Operasional Prosedur (SOP) berbasis COBIT 2019 (Layanan Helpdesk, Perlindungan Data Pengguna, Change Management, serta Mitigasi Risiko dan DRC), melakukan analisis proses bisnis, serta merancang flowchart tahapan proses dan pembagian tanggung jawab pada PT Electronic Home Solutions.",
+    "repoUrl": "",
     "demoUrl": ""
   }
 }
