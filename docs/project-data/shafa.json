@@ -1,38 +1,48 @@
 {
   "member": {
-    "name": "Shafa",
-    "role": "Design System",
+    "name": "Shafa Rismaya Dewi",
+    "role": "UI/UX Designer",
     "skema": "UI/UX",
-    "skills": ["Figma", "Tailwind CSS", "Vue 3", "UI/UX Design", "Wireframing"],
+    "skills": [
+      "Figma",
+      "User Interface Design",
+      "Wireframing",
+      "Prototyping",
+      "Design System",
+      "User Flow"
+    ],
     "avatar": "/images/members/shafa.webp",
-    "bio": "Bertanggung jawab atas design system tim: design token, komponen reusable (Button, Modal, Card, Gallery), wireframe 5 halaman, serta evaluasi heuristik dan responsivitas aplikasi.",
-    "github": "https://github.com/shafa",
-    "linkedin": "https://linkedin.com/in/shafa",
-    "email": "shafa@email.com"
+    "bio": "UI/UX Designer yang memiliki ketertarikan dalam merancang antarmuka yang mudah digunakan, menyusun design system yang konsisten, serta menerjemahkan kebutuhan pengguna ke dalam alur dan tampilan yang jelas dan mudah dipahami.",
+    "github": "https://github.com/shafarismaya",
+    "linkedin": "https://www.linkedin.com/in/shafa-rismaya-dewi-962b2217b/",
+    "email": "shafarismaya28@gmail.com"
   },
   "project": {
-    "title": "Design System & UI Component Library",
-    "summary": "Membangun sistem desain terpadu yang menjadi fondasi visual website portofolio tim, mencakup design token, komponen reusable, wireframe, dan panduan responsivitas.",
-    "category": "Web",
-    "technologies": ["Figma", "Tailwind CSS", "Vue 3", "Google Fonts"],
-    "background": "Tim membutuhkan konsistensi visual di seluruh halaman aplikasi. Tanpa sistem desain yang terdokumentasi, setiap anggota bisa menggunakan nilai warna, font, dan spacing yang berbeda-beda, menghasilkan tampilan yang tidak seragam dan sulit dirawat.",
-    "goal": "Menciptakan design system tunggal yang menjadi sumber kebenaran (single source of truth) untuk warna, tipografi, spacing, dan radius sudut—sehingga semua komponen tampil konsisten dan mudah dikembangkan oleh seluruh anggota tim.",
+    "title": "Perancangan UI/UX Claim Management System pada PT Taiyo Sinar Raya Teknik",
+    "summary": "Perancangan antarmuka Claim Management System berbasis web untuk PT Taiyo Sinar Raya Teknik menggunakan Figma hingga menjadi prototipe high-fidelity. Sistem ini mencakup proses pengajuan klaim progres pekerjaan, peninjauan klaim, pelacakan status, serta pengelolaan project dan pengguna untuk empat peran: customer, manajer, tim proyek, dan admin.",
+    "category": "UI/UX Design",
+    "technologies": [
+      "Figma",
+      "UI Design",
+      "High-Fidelity Prototyping",
+      "Component & Auto Layout"
+    ],
+    "background": "Pengajuan klaim progres pekerjaan di PT Taiyo Sinar Raya Teknik masih dilakukan secara manual. Dokumen pendukung seperti foto lapangan dan laporan pekerjaan tidak tersimpan di satu tempat, sehingga peninjauan klaim memakan waktu dan statusnya sulit dipantau oleh tim proyek, manajer proyek, maupun customer.",
+    "goal": "Merancang antarmuka Claim Management System yang mudah digunakan untuk mempermudah pengajuan, peninjauan, dan pelacakan klaim progres pekerjaan, serta menyajikan informasi klaim secara jelas dan konsisten sesuai kebutuhan setiap peran pengguna.",
     "features": [
-      "Design token lengkap: palet primary (indigo), secondary (amber), neutral (slate), dan status",
-      "Tipografi terstruktur: Plus Jakarta Sans untuk heading, Inter untuk body, dimuat via Google Fonts",
-      "Komponen BaseButton dengan varian primary/secondary/ghost dan state disabled/loading",
-      "Komponen BaseModal dengan dukungan v-model, tutup Esc, dan animasi",
-      "Komponen ProjectCard dengan badge kategori, thumbnail fallback, dan link ke detail",
-      "Komponen ImageGallery dengan grid thumbnail dan modal preview (prev/next, Esc)",
-      "Wireframe 5 halaman × 2 ukuran layar (mobile 360px & desktop 1280px)",
-      "Panduan responsivitas dan checklist heuristic evaluation Nielsen"
+      "Login dengan Verifikasi OTP: Autentikasi pengguna dengan lapisan verifikasi OTP sebelum masuk ke dashboard.",
+      "Dashboard per Peran: Tampilan dashboard yang disesuaikan untuk customer, manajer, tim proyek, dan admin.",
+      "Aju Klaim: Formulir pengajuan klaim progres pekerjaan oleh tim proyek, dilengkapi kolom pekerjaan yang sudah dilakukan, pilihan kendala opsional, dan unggah dokumen pendukung.",
+      "Tinjau dan Detail Klaim: Halaman untuk meninjau daftar klaim dan melihat detail klaim beserta dokumentasi lapangan.",
+      "Lacak Status: Pelacakan tahapan status klaim dalam bentuk progress tracker.",
+      "Manajemen Project: Fitur admin untuk menambah, mengubah, dan melihat detail project.",
+      "User Management: Fitur admin untuk menambah, mengubah, dan mengelola akun pengguna."
     ],
     "screenshots": [
-      "/images/projects/design-system-1.webp",
-      "/images/projects/design-system-2.webp"
+      "/images/projects/shafa-project-1.webp"
     ],
-    "contribution": "Merancang dan mengimplementasikan seluruh design system tim: mendefinisikan design token di tailwind.config.js, mengatur tipografi dan layout global di main.css, membuat komponen reusable BaseButton, BaseModal, ProjectCard, dan ImageGallery, serta mendokumentasikan wireframe dan panduan desain di docs/.",
-    "repoUrl": "https://github.com/team/tubes-ui-lanjutan",
-    "demoUrl": ""
+    "contribution": "",
+    "repoUrl": "",
+    "demoUrl": "https://www.figma.com/design/GYRkCSGRJzerfD303jWtLH/Claim-Management-System-Taiyo?node-id=0-1&t=hLeLrDWhJz08CAvJ-1"
   }
 }
